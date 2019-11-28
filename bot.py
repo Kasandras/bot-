@@ -2,6 +2,7 @@ import config
 import telebot
 
 bot = telebot.TeleBot(config.token)
+chat_id = '655197990'
 
 
 @bot.message_handler(content_types=['text'])
